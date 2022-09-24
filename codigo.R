@@ -1,7 +1,6 @@
 
 ## ----------------------------------------------------------------
-## Topicos de Macroeconometria
-## Trabajo final:  Replicacion del articulo titulado
+## Replicacion del articulo titulado
 ##                 Fiscal policy in the US: Sustainable after all?
 ##                 Autores: Pierre Aldama y Jerome Creel
 ## Presentado por: Carlos Andres Zapata Q.
@@ -122,7 +121,7 @@ ggplot(df3) +
 
 ## Estimaciones de los modelos
 
-# Estimación FRF de Bohn (Variables de control: gdp.gap, g.cycle)
+# EstimaciÃ³n FRF de Bohn (Variables de control: gdp.gap, g.cycle)
 # Periodo 1942-2016
 
 st <- ts(st[3:77])
@@ -155,7 +154,7 @@ summary(NLLSco3)
 ## ----------------------------------------------------------------
 ## ----------------------------------------------------------------
 
-## Estimación del modleo de Markov-Switching 
+## EstimaciÃ³n del modleo de Markov-Switching 
 
 model1.MS <- msmFit(model1, k=2, sw=c(T,T,T,T,F,T), p=1,control=list(parallel=T))
 summary(model1.MS)
