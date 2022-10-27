@@ -1,9 +1,8 @@
 
 ## ----------------------------------------------------------------
-## Replicacion del articulo titulado
 ##                 Fiscal policy in the US: Sustainable after all?
 ##                 Autores: Pierre Aldama y Jerome Creel
-## Presentado por: Carlos Andres Zapata Q.
+##                 Por: Carlos Andres Zapata Q.
 ## ----------------------------------------------------------------
 
 # Librerias usadas
@@ -22,7 +21,7 @@ library(strucchange)
 
 rm(list=ls())
 # Cargar datos desde el directorio local(actualizar directorio)
-setwd('C:/Users/DELL/Desktop/data/')
+setwd('')
 datos <- read_delim("data.csv", ",", escape_double = FALSE, trim_ws = TRUE)
 
 #--------------------------------------------------------------------------
